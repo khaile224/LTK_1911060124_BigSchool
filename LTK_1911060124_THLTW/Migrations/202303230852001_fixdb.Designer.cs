@@ -7,13 +7,13 @@ namespace LTK_1911060124_THLTW.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class InitialModel : IMigrationMetadata
+    public sealed partial class fixdb : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialModel));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(fixdb));
         
         string IMigrationMetadata.Id
         {
-            get { return "202303090608592_InitialModel"; }
+            get { return "202303230852001_fixdb"; }
         }
         
         string IMigrationMetadata.Source
