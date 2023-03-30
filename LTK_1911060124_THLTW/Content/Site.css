@@ -16,7 +16,7 @@ body {
 
 
 /* course layout*/
-.course{
+.course {
     list-style :none;
 }
 .course > li {
