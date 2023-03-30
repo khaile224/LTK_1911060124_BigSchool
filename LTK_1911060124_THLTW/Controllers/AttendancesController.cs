@@ -25,6 +25,7 @@ namespace LTK_1911060124_THLTW.Controllers
             var userId = User.Identity.GetUserId();
             if (_dbContext.Attendances.Any(a => a.AttendeeId == userId && a.CourseId == attendanceDto.CourseId))
                 return BadRequest("The Attendance already exists ! ");
+
             var attendance = new Attendance
             {
                 CourseId = attendanceDto.CourseId,
